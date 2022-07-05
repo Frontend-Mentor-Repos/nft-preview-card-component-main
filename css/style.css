@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    Font-size : 18px;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+}
+
+ #main-img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+#main-img:hover{
+    opacity: 0.5;
+}
+
+.mid >*{
+    height: 50px;
+    align-items: center;
+    display: inline-block;
+}
+
+.eth img{
+    height: 18px;
+    width: 11px;
+}
+
+#sum{
+    color: hsl(178, 100%, 50%);
+    padding-left: 3px;
+    position: relative;
+    bottom: 2px;
+}
+
+.clock{
+    position:relative;
+    left: 140px;
+}
+
+.clock >*{
+    display: inline-block;
+    position: relative;
+    padding-right: 2px;
+}
+
+.clock img{
+    height: 17px;
+    width: 17px;
+}
+
+
+.time{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    bottom: 2px;
+    
+}
+
+.creator>*{
+    display: inline-block;
+}
+
+.creator img{
+  width: 40px;  
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid hsl(215, 51%, 70%);
+  position: relative;
+  top: 15px;
+  margin-right: 5px;
+}
+
+span{
+    color: hsl(215, 51%, 70%);
+}
+
+#name, h2{
+    color: hsl(0, 0%, 100%);
+}
+
+#mid-txt{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    color:hsl(215, 51%, 70%, 0.3);
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.main-img:hover{
+    background: hsl(178, 100%, 50%);
+    width: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
